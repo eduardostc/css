@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif; /* Define a fonte para o corpo do documento. */
+  margin: 20px; /* Adiciona margem ao redor do corpo. */
+}
+
+h1 {
+  text-align: center; /* Centraliza o texto do título h1. */
+}
+
+form {
+  display: flex; /* Usa o modelo Flexbox para organizar os elementos filhos. */
+  flex-direction: column; /* Organiza os elementos como uma coluna. */
+  align-items: center; /* Centraliza os elementos filhos ao longo do eixo transversal. */
+  max-width: 400px; /* Define a largura máxima para o formulário. */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente na página. */
+}
+
+form div {
+  width: 100%; /* Define a largura das divisões como 100% para ocupar toda a largura disponível. */
+  margin-bottom: 10px; /* Adiciona margem na parte inferior das divisões do formulário. */
+}
+
+label {
+  font-weight: bold; /* Define o peso da fonte como negrito para as etiquetas. */
+}
+
+input {
+  padding: 10px; /* Adiciona preenchimento interno de 10 pixels aos campos de entrada. */
+  width: 100%; /* Define a largura dos campos de entrada como 100%. */
+  box-sizing: border-box; /* Garante que o preenchimento e a borda não aumentem a largura total. */
+}
+
+/* Define a ordem do botão para que ele apareça após o campo de data. */
+input[type="button"] {
+  width: 100%; /* Define a largura do botão como 100% para ocupar todo o espaço disponível. */
+  margin-top: 10px; /* Adiciona margem superior para separar o botão do campo de data. */
+}
